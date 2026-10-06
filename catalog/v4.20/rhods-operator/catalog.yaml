@@ -11,7 +11,7 @@ name: odh-stable
 package: rhods-operator
 schema: olm.channel
 ---
-image: quay.io/opendatahub/opendatahub-operator-bundle@sha256:e82afffd12f6416592abb5588f2da822f61d8327cf541ed0f408a93999f6f825
+image: quay.io/opendatahub/opendatahub-operator-bundle@sha256:0ffa1b46fd73dcd0ccda5080bd830ad8efaf6784fd2be63378fa0ff6d4db8d7f
 name: rhods-operator.3.6.0
 package: rhods-operator
 properties:
@@ -822,7 +822,7 @@ relatedImages:
   name: odh_workbenches_controller_image
 - image: quay.io/opendatahub/odh-workbenches-operator@sha256:cd2ed651f91cf97fe95c1b9bf19fbb0db9da3048cc4d0dfe8ad7d45815ca9e5b
   name: odh_workbenches_operator_image
-- image: quay.io/opendatahub/opendatahub-operator-bundle@sha256:e82afffd12f6416592abb5588f2da822f61d8327cf541ed0f408a93999f6f825
+- image: quay.io/opendatahub/opendatahub-operator-bundle@sha256:0ffa1b46fd73dcd0ccda5080bd830ad8efaf6784fd2be63378fa0ff6d4db8d7f
   name: ""
 - image: quay.io/opendatahub/opendatahub-operator@sha256:f48c7c7fd81073e866e35ba9101bdd0fdee378cdf464b36d83b6c188f565557f
   name: opendatahub-operator-f48c7c7fd81073e866e35ba9101bdd0fdee378cdf464b36d83b6c188f565557f-annotation
